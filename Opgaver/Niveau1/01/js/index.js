@@ -22,3 +22,21 @@ function add( a, b ){
 let outerResult = add(4,3);
 
 console.log(outerResult)
+
+
+
+// function showstuff (image ){
+
+//   document.getElementsByClassName(inputstuff).style.display = 'none';
+//   document.getElementById(image).style.display = 'none';
+// }
+
+// function hideElement(inputstuff){
+
+//   const input = document.getElementById('inputstuff');
+//   input.style.display = 'none';
+// }
+
+
+const input = document.getElementById('inputstuff');
+input.style.display = 'none';

@@ -19,7 +19,7 @@
 
 ```javascript
 skjulElementViaCssSelector (".produkt  .koebKnap");
-skjulElementViaCssSelector (".profil  img");
+skjulElementViaCssSelector (".profil  img"); 
 ```
 
 ## Ekstraopgave 1:
