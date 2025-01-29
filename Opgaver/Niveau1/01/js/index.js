@@ -8,3 +8,15 @@ btn.addEventListener("click", () => {
    
 
 })
+
+
+
+function add( x, y ){
+
+   let result = x + y;
+}ddd
+
+add(2);
+
+
+console.log(result)
