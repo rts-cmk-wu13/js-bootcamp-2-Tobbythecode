@@ -11,12 +11,14 @@ btn.addEventListener("click", () => {
 
 
 
-function add( x, y ){
+function add( a, b ){
 
-   let result = x + y;
-}ddd
+   return a / b;
 
-add(2);
+}
 
 
-console.log(result)
+
+let outerResult = add(4,3);
+
+console.log(outerResult)
