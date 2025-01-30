@@ -1,27 +1,27 @@
 
-const btn = document.getElementById("my-button");
-const colors = ["#eee", "#7f7"];
+// const btn = document.getElementById("my-button");
+// const colors = ["#eee", "#7f7"];
 
 
-btn.addEventListener("click", () => {
-  btn.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
+// btn.addEventListener("click", () => {
+//   btn.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
    
 
-})
+// })
 
 
 
-function add( a, b ){
+// function add( a, b ){
 
-   return a / b;
+//    return a / b;
 
-}
+// }
 
 
 
-let outerResult = add(4,3);
+// let outerResult = add(4,3);
 
-console.log(outerResult)
+// console.log(outerResult)
 
 
 
@@ -38,5 +38,7 @@ console.log(outerResult)
 // }
 
 
-const input = document.getElementById('inputstuff');
-input.style.display = 'none';
+// const input = document.getElementById('inputstuff');
+// input.style.display = 'none';
+
+
