@@ -43,7 +43,7 @@ document.querySelector("#buttons").addEventListener("click", function(event) {
     if (event.target.tagName === "BUTTON") {
       // Reset all buttons to grey
       document.querySelectorAll("#buttons button").forEach(btn => {
-        btn.style.backgroundColor = "grey";
+        btn.style.backgroundColor = "#EEEEEE";
       });
   
       // Change only the clicked button to green
