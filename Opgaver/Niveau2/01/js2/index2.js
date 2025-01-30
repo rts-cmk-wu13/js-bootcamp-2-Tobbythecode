@@ -50,3 +50,29 @@ document.querySelector("#buttons").addEventListener("click", function(event) {
       event.target.style.backgroundColor = "green";
     }
   });
+
+
+  
+const minusButtons = document.querySelectorAll(".card__minus--take");
+const plusButtons = document.querySelectorAll(".card__plus--add");
+const inputFields = document.querySelectorAll(".card__input");
+
+
+minusButtons.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    const inputField = inputFields[index];
+    const currentValue = Number(inputField.value) || 0;
+    if (currentValue > 0) {
+      inputField.value = currentValue - 1;
+    }
+  });
+});
+
+
+plusButtons.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    const inputField = inputFields[index];
+    const currentValue = Number(inputField.value) || 0;
+    inputField.value = currentValue + 1;
+  });
+});

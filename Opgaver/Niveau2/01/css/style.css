@@ -52,3 +52,77 @@ label {
 #buttons button:focus {
 	outline: none;
 }
+
+.card__heading{
+font-size: 2rem;
+
+font-weight: 800;
+	
+}
+
+.card__paragraph{
+font-size: 1rem;
+text-decoration: underline;
+
+}
+
+.cards{
+
+	display: grid;
+	gap: 0.5rem;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.card{
+	text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+	background-color: #eee;
+	font-family: sans-serif;
+}
+
+.card__image{
+	display: flex;
+	justify-self: center;
+	width: 50%;
+	padding-block: 1rem;
+
+}
+
+.card__amount-btn{
+
+text-align: center;
+padding-bottom: 1rem;
+}
+
+.card__amount-btn, .card__input{
+	text-align: center;
+margin-top:1rem;
+padding-block:1rem ;
+padding-inline: 1rem;
+font-size: 1rem;
+border: none;
+}
+
+
+.card__hr{
+
+	margin-inline: 4rem;
+}
+
+
+.card__plus--add{
+	padding-block: 1rem;
+	padding-inline: 1rem;
+	border: none;
+	background-color: #aaa;
+}
+
+.card__minus--take{
+
+	padding-block: 1rem;
+	padding-inline: 1rem;
+	border: none;
+	background-color: #aaa;
+}
